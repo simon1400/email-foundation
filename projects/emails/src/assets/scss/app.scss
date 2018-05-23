@@ -1,0 +1,54 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+table.container{
+  width: 800px!important;
+}
+
+h1{
+  margin-bottom: 0;
+}
+
+.bg_mnu{
+  background-image: url('/assets/img/background.jpg');
+  min-height: 170px;
+  .wrapper-inner{
+    padding-top: 45px;
+  }
+  .menu-item{
+    border-right: 2px solid $primary-color;
+    vertical-align: middle;
+    a{
+      font-size: $menu-item-size;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
+
+.plusy{
+  background-color: $secondary-color;
+  h2{
+    color: $success-color;
+    font-weight: bold;
+  }
+  p{
+    color: $white;
+  }
+}
+
+.bef_footer{
+  background-color: $light-gray;
+}
+
+.footer{
+  background-color: $dark-gray;
+  p{
+    color: $white;
+  }
+}
